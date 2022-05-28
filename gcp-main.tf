@@ -1,6 +1,6 @@
 resource "google_app_engine_application" "app" {
   project     = "lab-devops-t05"
-  location_id = "us-west"
+  location_id = "us-west1"
 }
 
 resource "google_artifact_registry_repository" "my-repo" {
